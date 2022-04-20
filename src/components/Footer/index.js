@@ -2,18 +2,18 @@ import React from 'react'
 import {Link} from 'gatsby'
 import {Segment, Container, Grid, List, Header} from 'semantic-ui-react'
 
-const twitterLink = (
-  <a href="https://twitter.com/parmsang" alt="twitter link">
-    Twitter
+const linkedinLink = (
+  <a href="https://www.linkedin.com/company/bc-systems-consultancy-ltd_2/" alt="linkedin link">
+    Lindein
   </a>
 )
 const facebookLink = (
-  <a href="https://facebook.com/" alt="facebook link">
+  <a href="https://www.facebook.com/BC-Systems-Consultancy-Ltd-396563354094538/" alt="facebook link">
     Facebook
   </a>
 )
 const emailLink = (
-  <a href="mailto:john@doe.com" alt="email link">
+  <a href="mailto:info@bcsystems.co.nz" alt="email link">
     Email
   </a>
 )
@@ -36,30 +36,30 @@ const Footer = () => (
               <List.Item as={Link} to="/privacy/">
                 Privacy
               </List.Item>
-              <List.Item as={Link} to="/terms/">
+              {/* <List.Item as={Link} to="/terms/">
                 Terms
-              </List.Item>
+              </List.Item> */}
             </List>
           </Grid.Column>
-          <Grid.Column width={5}>
+          {/* <Grid.Column width={5}>
             <Header as="h4" content="Services" />
             <List>
               <List.Item as={Link} to="/">
                 Our Products
               </List.Item>
             </List>
-          </Grid.Column>
+          </Grid.Column> */}
           <Grid.Column width={7}>
-            <Header as="h4">Footer Header</Header>
+            <Header as="h4">Find more details</Header>
             <p>
-              Extra space for a call to action inside the footer that could help
-              re-engage users.
+              Phone: 03 489 3915
+              Address: 107 Gordon Road. Mosgiel
             </p>
             <List horizontal style={{display: 'flex'}}>
               <List.Item
-                icon="twitter"
+                icon="linkedin"
                 style={{display: 'flex'}}
-                content={twitterLink}
+                content={linkedinLink}
               />
               <List.Item
                 icon="facebook"

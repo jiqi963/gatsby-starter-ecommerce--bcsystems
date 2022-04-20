@@ -1,14 +1,14 @@
 import React from 'react'
 import {Image} from 'semantic-ui-react'
 
-import moltin from '../../images/moltin-light-hex.svg.svg'
+import bcsystems from '../../images/BC-Systems-Logo.png'
 
 const Logo = () => (
   <Image
     size="mini"
-    src={moltin}
+    src={bcsystems}
     style={{marginRight: '1.5em'}}
-    alt="I love Lamp"
+    alt="Technology Under Control"
   />
 )
 

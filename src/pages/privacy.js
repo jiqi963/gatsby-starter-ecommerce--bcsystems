@@ -7,16 +7,16 @@ const Privacy = ({location}) => (
     <SEO title="Privacy" />
     <h1>Privacy</h1>
     <p>
-      Lorem ipsizzle dolizzle sit amizzle, fo shizzle my nizzle adipiscing
-      elizzle. Pizzle mah nizzle velizzle, owned volutpizzle, mammasay mammasa
-      mamma oo sa quizzle, my shizz uhuh ... yih!, shit. Pellentesque nizzle for
-      sure. erizzle. Cool shiznit dolizzle dapibizzle turpis tempizzle tempor.
-      Get down get down bow wow wow nibh the bizzle turpizzle. Fo shizzle mah
-      nizzle fo rizzle, mah home g-dizzle izzle go to hizzle. Pellentesque for
-      sure rhoncizzle sure. In yippiyo habitasse platea dictumst. Shizzle my
-      nizzle crocodizzle dapibizzle. Curabitur tellus ass, pretizzle away,
-      gangsta ac, eleifend vitae, shizzlin dizzle. Mammasay mammasa mamma oo sa
-      suscipizzle. Shizzle my nizzle crocodizzle semper velit sed purizzle.
+    We collect personal information from you, including information about your:
+name
+contact information
+location
+computer or network
+interactions with us
+billing or purchase information
+We collect your personal information in order to:
+shipping your good
+You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be corrected if you think it is wrong. If you d like to ask for a copy of your information, or to have it corrected, please contact us at .
     </p>
   </Layout>
 )
